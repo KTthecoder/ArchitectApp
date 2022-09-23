@@ -102,5 +102,72 @@
     font-size: 1.1rem;
     margin: 0px;
     padding: 10px 0px;
+    line-height: 32px;
     color: #e9e6dc;
+}
+
+@media(max-width: 1100px){
+    .FooterDiv:nth-child(1){
+        width: 50%;
+    }
+
+    .FooterDiv:nth-child(2){
+        width: 40%;
+    }
+}
+
+@media(max-width: 1000px){
+    .FooterDivBlock h2{
+        font-size: 1.6rem;
+    }
+
+    .FooterDivBlock1 h2{
+        font-size: 1.6rem;
+    }
+
+    .FooterDivBlockIcon{
+        width: 30px;
+    }
+}
+
+@media(max-width: 590px){
+    .FooterDivBlock{
+        width: 100%;
+    }
+
+    .FooterDiv:nth-child(1){
+        width: 85%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .FooterDiv:nth-child(2){
+        width: 85%;
+        justify-content: center;
+    }
+
+    .FooterDiv:nth-child(1){
+        border: none;
+    }
+
+    .FooterContainer{
+        flex-direction: column;
+    }
+
+    .FooterDivBlock{
+        width: 100%;
+    }
+
+    .FooterDivBlockk{
+        width: 100%;
+    }
+
+    .FooterContainer{
+        flex-wrap: wrap;
+    }
+
+    .FooterDivBig p{
+        width: 85%;
+        text-align: center;
+    }
 }

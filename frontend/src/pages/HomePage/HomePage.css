@@ -13,7 +13,7 @@
     align-items: center;
     width: 100%;
     flex-direction: column;
-    height: 80vh;
+    padding: 180px 0px;
 }
 
 .HomeHeaderTop{
@@ -246,15 +246,13 @@
     display: none;
     justify-content: center;
     align-items: center;
-    width: 93.8%;
-    height: 88.7%;
-    background-color: #615c4ac9;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 0px;
+    left: 0px;
     flex-direction: column;
-    box-sizing: border-box;
-    padding: 0px 40px;
+    background-color: #615c4ae5;
 }
 
 .HomePortfolioBlock:hover .HomePortolioHover {
@@ -417,11 +415,13 @@
 }
 
 .HomeFaqBlockH2 h2{
-    
+    line-height: 34px;
+    color: #222;
 }
 
 .HomeFaqBlockIcon{
     width: 30px;
+    margin-left: 50px;
 }
 
 .HomeFaqBlockP{
@@ -439,4 +439,408 @@
 .HomeFaqBlockP p{
     line-height: 35px;
     font-size: 1.05rem;
+}
+
+@media(max-width: 1600px){
+    .HomeAboutRight p{
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media(max-width: 1520px){
+    .HomePortfolioH1{
+        width: 80%;
+    }
+}
+
+@media(max-width: 1400px){
+    .HomeH1{
+        font-size: 4.5rem;
+        line-height: 80px;
+    }
+
+    .HomePortfolioH1{
+        font-size: 4.5rem;
+        line-height: 80px;
+    }
+
+    .HomePortfolioBottomText h2{
+        font-size: 3.5rem;
+        line-height: 80px;
+    }
+
+    .HomeFaqH1{
+        font-size: 4.5rem;
+        line-height: 80px;
+    }
+}
+
+@media(max-width: 1262px){
+    .HomeH1{
+        font-size: 4rem;
+        line-height: 80px;
+    }
+
+    .HomePortfolioH1{
+        font-size: 4rem;
+        line-height: 80px;
+    }
+
+    .HomeFaqH1{
+        font-size: 4rem;
+        line-height: 80px;
+    }
+
+    .HomePortfolioBottomText p{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media(max-width: 1200px){
+    .HomePortfolioBlock:nth-child(1){
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #615C4A;
+    }
+
+    .HomePortfolioBlock:nth-child(2){
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #615C4A;
+    }
+
+    .HomePortfolioBlock:nth-child(3){
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #615C4A;
+    }
+
+    .HomePortfolioBlock:nth-child(4){
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #615C4A;
+    }
+
+    .HomePortfolioBlock:nth-child(5){
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #615C4A;
+    }
+
+    .HomePortfolioBlock:nth-child(6){
+        width: 100%;
+        border: none;
+    }
+
+    .HomePortfolioBlock{
+        border-bottom: 1px solid #615C4A;
+    }
+}
+
+@media(max-width: 1150px){
+    .HomePortfolioBlock1 h1{
+        font-size: 3.5rem;
+    }
+}
+
+@media(max-width: 1132px){
+    .HomeH1{
+        font-size: 3.5rem;
+        line-height: 70px;
+    }
+
+    .HomeFaqH1{
+        font-size: 3.5rem;
+        line-height: 70px;
+    }
+
+    .HomePortfolioH1{
+        font-size: 3.5rem;
+        line-height: 70px;
+    }
+
+    .HomeAboutRight{
+        width: 50%;
+    }
+
+    .HomeAboutLeft{
+        width: 40%;
+    }
+
+    .HomeAboutRight p{
+        width: 80%;
+    }
+
+    .HomeAboutRightLinkDiv{
+        width: 80%;
+    }
+}
+
+@media(max-width: 1100px){
+    .HomeHeaderTop h1{
+        font-size: 5rem;
+        line-height: 95px;
+    }
+
+    .HomeHeader{
+        padding: 150px 0px;
+    }
+}
+
+@media(max-width: 1040px){
+    .HomePortfolioBottom{
+        flex-direction: column;
+    }
+
+    .HomePortfolioBottomText{
+        width: 90%;
+    }
+
+    .HomePortfolioBottomBtnDiv{
+        width: 90%;
+        justify-content: flex-start;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 910px){
+    .HomePortfolioBlock1 h1{
+        font-size: 3.5rem;
+        padding-bottom: 10px;
+    }
+}
+
+@media(max-width: 790px){
+    .HomeAbout{
+        flex-direction: column;
+    }
+
+    .HomeAboutLeft{
+        width: 85%;
+    }
+
+    .HomeAboutRight{
+        width: 85%;
+    }
+
+    .HomeAboutRight p{
+        width: 100%;
+    }
+
+    .HomeAboutRightLinkDiv{
+        width: 100%;
+    }
+}
+
+@media(max-width: 780px){
+    .HomeHeaderTop h1{
+        font-size: 4rem;
+        line-height: 80px;
+    }
+
+    .HomeHeader{
+        padding: 120px 0px;
+        width: 95%;
+    }
+}
+
+@media(max-width: 646px){
+    .HomeHeaderTop h1{
+        font-size: 3.5rem;
+        line-height: 65px;
+    }
+
+    .HomeHeader{
+        padding: 100px 0px;
+    }
+}
+
+@media(max-width: 600px){
+    .HomeH1{
+        padding: 0px;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .HomeAbout{
+        padding: 50px 0px;
+    }
+
+    .HomeAboutRightLink{
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 570px){
+    .HomePortfolioBlock1 h1{
+        padding: 0px;
+    }
+
+    .HomePortfolioBlock1{
+        padding: 0px 0px 0px 20px;
+    }
+}
+
+@media(max-width: 550px){
+    .HomeHeaderTop h1{
+        font-size: 3rem;
+        line-height: 65px;
+    }
+
+    .HomeH1{
+        font-size: 3rem;
+        line-height: 65px;
+    }
+
+    .HomeFaqH1{
+        font-size: 3rem;
+        line-height: 65px;
+    }
+
+    .HomeFaqBlockH2 h2{
+        font-size: 1.5rem;
+    }
+
+    .HomeFaqBlockIcon{
+        margin-left: 30px;
+    }
+
+    .HomePortfolioBottomText h2{
+        font-size: 3rem;
+        line-height: 65px;
+    }
+
+    .HomePortfolioH1{
+        font-size: 3rem;
+        line-height: 65px;
+    }
+}
+
+@media(max-width: 540px){
+    .HomeFaqDiv{
+        width: 100%;
+    }
+
+    .HomeFaqBlockH2{
+        width: 100%;
+        border-left: none;
+        border-right: none;
+    }
+
+    .HomeFaqBlockP{
+        border-left: none;
+        border-right: none;
+    }
+}
+
+@media(max-width: 520px){
+    .HomeHeaderBottom{
+        flex-direction: column;
+        width: 90%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .HomeAboutRightLink{
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 500px){
+    .HomeFaqBlockH2{
+        flex-direction: column;
+    }
+
+    .HomeFaqBlockH2 h2{
+        width: 100%;
+    }
+
+    .HomeFaqBlockIcon{
+        padding: 10px 0px;
+    }
+
+    .HomePortfolioBlock1 h1{
+        font-size: 2.5rem;
+        padding: 0px 0px 0px 5px;
+    }
+
+    .HomePortfolioBlock{
+        padding: 20px;
+    }
+}
+
+@media(max-width: 476px){
+    .HomeHeaderTop h1{
+        font-size: 2.5rem;
+        line-height: 55px;
+    }
+
+    .HomeH1{
+        font-size: 2.5rem;
+        line-height: 55px;
+    }
+
+    .HomeFaqH1{
+        font-size: 2.5rem;
+        line-height: 55px;
+    }
+
+    .HomePortfolioBottomText h2{
+        font-size: 2.5rem;
+        line-height: 55px;
+    }
+
+    .HomePortfolioH1{
+        font-size: 2.5rem;
+        line-height: 55px;
+    }
+
+    .HomeHeader{
+        padding: 80px 0px;
+    }
+}
+
+@media(max-width: 396px){
+    .HomeHeaderTop h1{
+        font-size: 2rem;
+        line-height: 45px;
+    }
+
+    .HomeH1{
+        font-size: 2rem;
+        line-height: 45px;
+    }
+
+    .HomeFaqH1{
+        font-size: 2rem;
+        line-height: 45px;
+    }
+
+    .HomePortfolioBottomText h2{
+        font-size: 2rem;
+        line-height: 45px;
+    }
+
+    .HomePortfolioH1{
+        font-size: 2rem;
+        line-height: 45px;
+    }
+
+    .HomeHeader{
+        padding: 40px 0px;
+    }
+}
+
+@media(max-width: 370px){
+    .HomePortfolioBlock1 h1{
+        font-size: 2rem;
+        padding: 0px 0px 10px 2px;
+    }
 }
