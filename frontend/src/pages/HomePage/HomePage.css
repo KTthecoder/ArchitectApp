@@ -1,0 +1,442 @@
+.HomeContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.HomeHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.HomeHeaderTop{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+}
+
+.HomeHeaderTop h1{
+    font-size: 7rem;
+    width: 80%;
+    line-height: 130px;
+    font-weight: 500;
+    color: #615C4A;
+    margin: 0px 0px 45px 0px;
+}
+
+.HomeHeaderBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.HomeHeaderBottomLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #222;
+    border: 2px solid #615C4A;
+    border-radius: 30px;
+    padding: 15px 50px;
+    margin: 0px;
+}
+
+.HomeHeaderBottomLink:hover{
+    background-color: #615C4A;
+    color: white;
+}
+
+.HomeHeaderImgDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.HomeHeaderImg{
+    width: 100%;
+}
+
+.HomeAbout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 65px 0px;
+    border-bottom: 1px solid #615C4A;
+}
+
+.HomeAboutLeft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+}
+
+.HomeH1{
+    font-size: 5rem;
+    width: 100%;
+    line-height: 100px;
+    font-weight: 500;
+    color: #615C4A;
+    margin: 0px 0px 45px 0px;
+    letter-spacing: 3px;
+}
+
+.HomeAboutRight{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+    flex-direction: column;
+}
+
+.HomeAboutRightLinkDiv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 60%;
+    flex-direction: column;
+}
+
+.HomeAboutRight p{
+    line-height: 35px;
+    font-size: 1.05rem;
+    width: 60%;
+}
+
+.HomeAboutRightLink{
+    padding: 15px 35px;
+    border: 1px solid #615C4A;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #222;
+    margin-top: 10px;
+    letter-spacing: 4px;
+    font-size: .8rem;
+}
+
+.HomeAboutRightLink:hover{
+    background-color: #615C4A;
+    color: white;
+}
+
+.HomePortfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    flex-direction: column;
+}
+
+.HomePortfolioHeader{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 90%;
+}
+
+.HomePortfolioH1{
+    font-size: 5rem;
+    width: 60%;
+    text-align: right;
+    line-height: 100px;
+    font-weight: 500;
+    color: #615C4A;
+    margin: 0px 0px 0px 0px;
+    border-left: 1px solid #615C4A;
+    padding: 35px 0px 35px 0px;
+    letter-spacing: 3px;
+}
+
+.HomePortfolioDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #615C4A;
+    border-bottom: 1px solid #615C4A;
+    flex-wrap: wrap;
+}
+
+.HomePortfolioBlock{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 30px;
+    position: relative;
+}
+
+.HomePortfolioBlock:nth-child(1){
+    border-bottom: 1px solid #615C4A;
+    border-top: 1px solid #615C4A;
+}
+
+.HomePortfolioBlock:nth-child(2){
+    border-bottom: 1px solid #615C4A;
+    border-left: 1px solid #615C4A;
+}
+
+.HomePortfolioBlock:nth-child(3){
+    width: 55%;
+    margin: 0px;
+    border-top: 1px solid #615C4A;
+    border-bottom: 1px solid #615C4A;
+    border-left: 1px solid #615C4A;
+}
+
+.HomePortfolioBlock:nth-child(4){
+    border-left: 1px solid #615C4A;
+    width: 45%;
+    margin: 0px;
+}
+
+.HomePortfolioBlock:nth-child(5){
+    width: 45%;
+    margin: 0px;
+    border-top: 1px solid #615C4A;
+    border-bottom: 1px solid #615C4A;
+}
+
+.HomePortfolioBlock:nth-child(6){
+    width: 55%;
+    margin: 0px;
+    border-left: 1px solid #615C4A;
+    border-top: 1px solid #615C4A;
+}
+
+.HomePortfolioImg{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.HomePortfolioBlock1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 90%;
+    position: absolute;
+    height: 90%;
+    box-sizing: border-box;
+    padding: 0px 40px;
+}
+
+.HomePortfolioBlock1 h1{
+    font-size: 5rem;
+    color: #e9e6dc;
+    letter-spacing: 3px;
+    text-shadow: -2px 0 #615C4A, 0 2px #615C4A, 2px 0 #615C4A, 0 -2px #615C4A;
+}
+
+.HomePortolioHover{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 93.8%;
+    height: 88.7%;
+    background-color: #615c4ac9;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0px 40px;
+}
+
+.HomePortfolioBlock:hover .HomePortolioHover {
+    display: flex;
+}
+
+.HomePortfolioHoverTop{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 90%;
+    height: 30%;
+    flex-direction: column;
+}
+
+.HomePortfolioHoverTop p{
+    width: 100%;
+    margin: 0px;
+    color: rgb(186, 186, 186);
+}
+
+.HomePortfolioHoverTop h1{
+    width: 100%;
+    margin: 12px 0px 30px 0px;
+    color: whitesmoke;
+}
+
+.HomePortfolioHoverBottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.HomePortfolioHoverBottomLink{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-top: 10px;
+    letter-spacing: 4px;
+    font-size: 1.3rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomePortfolioBottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 45px 0px 70px 0px;
+    border-bottom: 1px solid #615C4A;
+}
+
+.HomePortfolioBottomText{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 55%;
+    flex-direction: column;
+}
+
+.HomePortfolioBottomText h2{
+    font-size: 4rem;
+    width: 100%;
+    line-height: 100px;
+    font-weight: 500;
+    color: #615C4A;
+    margin: 0px 0px 45px 0px;
+    letter-spacing: 3px;
+}
+
+.HomePortfolioBottomText p{
+    margin: 0px;
+    line-height: 32px;
+}
+
+.HomePortfolioBottomBtnDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+
+.HomePortfolioBottomBtn{
+    padding: 20px 35px;
+    border: 1px solid #615C4A;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #222;
+    margin-top: 10px;
+    letter-spacing: 4px;
+    font-size: .8rem;
+}
+
+.HomePortfolioBottomBtn:hover{
+    color: white;
+    background-color: #615C4A;
+}
+
+.HomeFaq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.HomeFaqHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.HomeFaqH1{
+    font-size: 5rem;
+    width: 100%;
+    text-align: right;
+    line-height: 100px;
+    font-weight: 500;
+    color: #615C4A;
+    margin: 0px 0px 0px 0px;
+    padding: 55px 0px 65px 0px;
+    letter-spacing: 3px;
+}
+
+.HomeFaqDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.HomeFaqBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.HomeFaqBlockH2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-left: 1px solid #615C4A;
+    border-right: 1px solid #615C4A;
+    border-bottom: 1px solid #615C4A;
+    box-sizing: border-box;
+    padding: 10px 40px;
+}
+
+.HomeFaqBlockH2:nth-child(1){
+    border-top: 1px solid #615C4A;
+}
+
+.HomeFaqBlockH2 h2{
+    
+}
+
+.HomeFaqBlockIcon{
+    width: 30px;
+}
+
+.HomeFaqBlockP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 40px;
+    border-left: 1px solid #615C4A;
+    border-right: 1px solid #615C4A;
+    border-bottom: 1px solid #615C4A;
+}
+
+.HomeFaqBlockP p{
+    line-height: 35px;
+    font-size: 1.05rem;
+}
