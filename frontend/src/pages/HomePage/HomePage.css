@@ -178,6 +178,7 @@
     box-sizing: border-box;
     padding: 30px;
     position: relative;
+    flex-direction: column;
 }
 
 .HomePortfolioBlock:nth-child(1){
@@ -228,11 +229,12 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    width: 90%;
+    width: 60%;
     position: absolute;
     height: 90%;
     box-sizing: border-box;
-    padding: 0px 40px;
+    bottom: -60px;
+    left: 60px;
 }
 
 .HomePortfolioBlock1 h1{
@@ -278,6 +280,7 @@
     width: 100%;
     margin: 12px 0px 30px 0px;
     color: whitesmoke;
+    font-size: 1.5rem;
 }
 
 .HomePortfolioHoverBottom{
@@ -358,7 +361,7 @@
 
 .HomeFaq{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     flex-direction: column;
@@ -385,15 +388,15 @@
 
 .HomeFaqDiv{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 90%;
 }
 
 .HomeFaqBlock{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 100%;
     flex-direction: column;
 }
@@ -422,23 +425,58 @@
 .HomeFaqBlockIcon{
     width: 30px;
     margin-left: 50px;
+    cursor: pointer;
 }
 
 .HomeFaqBlockP{
-    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     box-sizing: border-box;
-    padding: 10px 40px;
     border-left: 1px solid #615C4A;
     border-right: 1px solid #615C4A;
     border-bottom: 1px solid #615C4A;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    z-index: -1;
+}
+
+.HomeFaqBlockP p{
+    padding: 10px 40px;
+}
+
+@keyframes growDown {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+        visibility: visible;
+    }
+}
+
+@keyframes growUp {
+    0% {
+        visibility: hidden;
+        opacity: 0.5;
+        transform: translateY(0px)
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-15px);
+        height: 0px;
+        visibility: visible;
+    }
 }
 
 .HomeFaqBlockP p{
     line-height: 35px;
     font-size: 1.05rem;
+    z-index: -1;
 }
 
 @media(max-width: 1600px){
@@ -543,11 +581,29 @@
     .HomePortfolioBlock{
         border-bottom: 1px solid #615C4A;
     }
+
+    .HomePortolioHover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        padding: 40px 0px 40px 0px;
+        margin: 0px;
+        bottom: 0px;
+        height: auto;
+    }
+
+    .HomePortfolioBlock1{
+        bottom: 150px;
+        left: 70px;
+    }
 }
 
 @media(max-width: 1150px){
     .HomePortfolioBlock1 h1{
         font-size: 3.5rem;
+        padding-bottom: 40px;
     }
 }
 
@@ -614,7 +670,7 @@
 @media(max-width: 910px){
     .HomePortfolioBlock1 h1{
         font-size: 3.5rem;
-        padding-bottom: 10px;
+        padding-bottom:30px;
     }
 }
 
@@ -650,6 +706,17 @@
         padding: 120px 0px;
         width: 95%;
     }
+
+    .HomePortfolioHoverBottomLink{
+        font-size: 1.1rem;
+    }
+
+    .HomePortfolioHoverTop h1{
+        width: 100%;
+        margin: 12px 0px 30px 0px;
+        color: whitesmoke;
+        font-size: 1.3rem;
+    }
 }
 
 @media(max-width: 646px){
@@ -681,10 +748,13 @@
 @media(max-width: 570px){
     .HomePortfolioBlock1 h1{
         padding: 0px;
+        position: absolute;
+        left: -10px;
+        bottom: 15px;
     }
 
     .HomePortfolioBlock1{
-        padding: 0px 0px 0px 20px;
+        padding: 0px 0px 0px 0px;
     }
 }
 
@@ -768,7 +838,8 @@
 
     .HomePortfolioBlock1 h1{
         font-size: 2.5rem;
-        padding: 0px 0px 0px 5px;
+        bottom: 30px;
+        left: -20px
     }
 
     .HomePortfolioBlock{
@@ -804,6 +875,12 @@
 
     .HomeHeader{
         padding: 80px 0px;
+    }
+}
+
+@media(max-width: 447px){
+    .HomePortfolioBlock1{
+        bottom: 170px;
     }
 }
 

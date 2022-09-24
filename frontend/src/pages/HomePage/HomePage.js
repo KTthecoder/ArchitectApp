@@ -83,36 +83,36 @@ const HomePage = () => {
 
     return (
         <div className='HomeContainer'>
-            <div className='HomeHeader'>
-                <div className='HomeHeaderTop'>
+            <section className='HomeHeader'>
+                <article className='HomeHeaderTop'>
                     <h1>ARCHITECTURAL MODERN SOLUTIONS</h1>
-                </div>
-                <div className='HomeHeaderBottom'>
+                </article>
+                <article className='HomeHeaderBottom'>
                     <Link to='/' className='HomeAboutRightLink'>CONTACT US</Link>
                     <p>HOME DESIGN SINCE 2012</p>
-                </div>
-            </div>
-            <div className='HomeHeaderImgDiv'>
+                </article>
+            </section>
+            <section className='HomeHeaderImgDiv'>
                 <img src={img1} className='HomeHeaderImg' />
                 {/* Photo by <a href="https://unsplash.com/@spacejoy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Spacejoy</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
-            </div>
-            <div className='HomeAbout'>
-                <div className='HomeAboutLeft'>
+            </section>
+            <section className='HomeAbout'>
+                <article className='HomeAboutLeft'>
                     <h1 className='HomeH1'>About Our Work</h1>
-                </div>  
-                <div className='HomeAboutRight'>
+                </article>  
+                <article className='HomeAboutRight'>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor, lectus vel rutrum vestibulum, enim eros fringilla dolor, accumsan hendrerit nisl justo ac ligula. Integer fringilla dolor lectus, quis posuere felis finibus nec. Praesent in purus viverra, pharetra ante quis, cursus erat. Integer et mauris ut dolor iaculis rutrum. Vestibulum ultrices neque in enim sollicitudin, ac imperdiet nisl...</p>
                     <div className='HomeAboutRightLinkDiv'>
                         <Link to='/' className='HomeAboutRightLink'>READ MORE</Link>
                     </div>       
-                </div>
-            </div>
-            <div className='HomePortfolio'>
-                <div className='HomePortfolioHeader'>
+                </article>
+            </section>
+            <section className='HomePortfolio'>
+                <article className='HomePortfolioHeader'>
                     <h1 className='HomePortfolioH1'>Selected Designs</h1>
-                </div>
-                <div className='HomePortfolioDiv'>
-                    <div className='HomePortfolioBlock'>
+                </article>
+                <section className='HomePortfolioDiv'>
+                    <article className='HomePortfolioBlock'>
                         <img src={img1} className='HomePortfolioImg' />
                         {/* Photo by <a href="https://unsplash.com/@spacejoy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Spacejoy</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
                         <div className='HomePortfolioBlock1'>
@@ -127,8 +127,8 @@ const HomePage = () => {
                                 <Link to='/' className='HomePortfolioHoverBottomLink'>See Project</Link>
                             </div>
                         </div>
-                    </div>
-                    <div className='HomePortfolioBlock'>
+                    </article>
+                    <article className='HomePortfolioBlock'>
                         <img src={img2} className='HomePortfolioImg' />
                         {/* Photo by <a href="https://unsplash.com/@sidekix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sidekix Media</a> on <a href="https://unsplash.com/s/photos/interior-design?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
                         <div className='HomePortfolioBlock1'>
@@ -143,8 +143,8 @@ const HomePage = () => {
                                 <Link to='/' className='HomePortfolioHoverBottomLink'>See Project</Link>
                             </div>
                         </div>
-                    </div>
-                    <div className='HomePortfolioBlock'>
+                    </article>
+                    <article className='HomePortfolioBlock'>
                         <img src={img3} className='HomePortfolioImg' />
                         {/* Photo by <a href="https://unsplash.com/@iwood?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">刘 强</a> on <a href="https://unsplash.com/s/photos/interior-design?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
                         <div className='HomePortfolioBlock1'>
@@ -159,8 +159,8 @@ const HomePage = () => {
                                 <Link to='/' className='HomePortfolioHoverBottomLink'>See Project</Link>
                             </div>
                         </div>
-                    </div>           
-                    <div className='HomePortfolioBlock'>
+                    </article>           
+                    <article className='HomePortfolioBlock'>
                         <img src={img5} className='HomePortfolioImg' />
                         {/* Zdjęcie dodane przez Victoria Akvarel : https://www.pexels.com/pl-pl/zdjecie/sofa-krzesla-w-salonie-1648776/ */}
                         <div className='HomePortfolioBlock1'>
@@ -175,8 +175,8 @@ const HomePage = () => {
                                 <Link to='/' className='HomePortfolioHoverBottomLink'>See Project</Link>
                             </div>
                         </div>
-                    </div>
-                    <div className='HomePortfolioBlock'>
+                    </article>
+                    <article className='HomePortfolioBlock'>
                         <img src={img7} className='HomePortfolioImg' />
                         {/* Zdjęcie dodane przez Vecislavas Popa: https://www.pexels.com/pl-pl/zdjecie/wlaczony-inteligentny-telewizor-z-plaskim-ekranem-w-kolorze-szarym-1571459/ */}
                         <div className='HomePortfolioBlock1'>
@@ -191,8 +191,8 @@ const HomePage = () => {
                                 <Link to='/' className='HomePortfolioHoverBottomLink'>See Project</Link>
                             </div>
                         </div>
-                    </div>
-                    <div className='HomePortfolioBlock'>
+                    </article>
+                    <article className='HomePortfolioBlock'>
                         <img src={img6} className='HomePortfolioImg' />
                         {/* Zdjęcie dodane przez Pixabay: https://www.pexels.com/pl-pl/zdjecie/sofa-narozna-z-brazowej-tkaniny-275484/ */}
                         <div className='HomePortfolioBlock1'>
@@ -207,9 +207,9 @@ const HomePage = () => {
                                 <Link to='/' className='HomePortfolioHoverBottomLink'>See Project</Link>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div className='HomePortfolioBottom'>
+                    </article>
+                </section>
+                <article className='HomePortfolioBottom'>
                     <div className='HomePortfolioBottomText'>
                         <h2>Our Projects</h2>
                         <p>Sed dignissim neque at ex vehicula facilisis. Proin metus ex, iaculis sit amet nulla quis, mattis tempus enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce quis tellus id lorem ultrices suscipit luctus ut sapien. Ut in iaculis neque. Suspendisse varius ipsum non metus laoreet, sed cursus est eleifend.</p>
@@ -217,66 +217,66 @@ const HomePage = () => {
                     <div className='HomePortfolioBottomBtnDiv'>
                         <Link to='/' className='HomePortfolioBottomBtn'>SEE MORE PROJECTS</Link>
                     </div>
-                </div>
-            </div>
-            <div className='HomeFaq'>
-                <div className='HomeFaqHeader'>
+                </article>
+            </section>
+            <section className='HomeFaq'>
+                <article className='HomeFaqHeader'>
                     <h1 className='HomeFaqH1'>FAQ Section</h1>
-                </div>
-                <div className='HomeFaqDiv'>
+                </article>
+                <section className='HomeFaqDiv'>
                     <div className='HomeFaqBlock'>
-                        <div className='HomeFaqBlockH2'>
+                        <article className='HomeFaqBlockH2'>
                             <h2>01. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
                             <img src={arrowBot} className='HomeFaqBlockIcon' onClick={() => FaqToggle1(faqS1)} />
-                        </div>
-                        <div className='HomeFaqBlockP' style={faqS1 ? {display: 'flex'} : {display: 'none'}}>
+                        </article>
+                        <article className='HomeFaqBlockP' style={faqS1 ? {animationName: 'growDown'} : {animationName: 'growUp'}}>
                             <p>Donec porttitor, lectus vel rutrum vestibulum, enim eros fringilla dolor, accumsan hendrerit nisl justo ac ligula. Integer fringilla dolor lectus, quis posuere felis finibus nec. Praesent in purus viverra, pharetra ante quis, cursus erat. Integer et mauris ut dolor iaculis rutrum. Vestibulum ultrices neque in enim sollicitudin, ac imperdiet nisl dignissim. Pellentesque commodo dui vitae felis cursus dignissim. </p>
-                        </div>
-                        <div className='HomeFaqBlockH2'>
+                        </article>
+                        <article className='HomeFaqBlockH2'>
                             <h2>02. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
                             <img src={arrowBot} className='HomeFaqBlockIcon' onClick={() => FaqToggle2(faqS2)} />
-                        </div>
-                        <div className='HomeFaqBlockP' style={faqS2 ? {display: 'flex'} : {display: 'none'}}>
+                        </article>
+                        <article className='HomeFaqBlockP' style={faqS2 ? {animationName: 'growDown'} : {animationName: 'growUp'}}>
                             <p>Donec porttitor, lectus vel rutrum vestibulum, enim eros fringilla dolor, accumsan hendrerit nisl justo ac ligula. Integer fringilla dolor lectus, quis posuere felis finibus nec. Praesent in purus viverra, pharetra ante quis, cursus erat. Integer et mauris ut dolor iaculis rutrum. Vestibulum ultrices neque in enim sollicitudin, ac imperdiet nisl dignissim. Pellentesque commodo dui vitae felis cursus dignissim. </p>
-                        </div>
-                        <div className='HomeFaqBlockH2'>
+                        </article>
+                        <article className='HomeFaqBlockH2'>
                             <h2>03. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
                             <img src={arrowBot} className='HomeFaqBlockIcon' onClick={() => FaqToggle3(faqS3)} />
-                        </div>
-                        <div className='HomeFaqBlockP' style={faqS3 ? {display: 'flex'} : {display: 'none'}}>
+                        </article>
+                        <article className='HomeFaqBlockP' style={faqS3 ? {animationName: 'growDown'} : {animationName: 'growUp'}}>
                             <p>Donec porttitor, lectus vel rutrum vestibulum, enim eros fringilla dolor, accumsan hendrerit nisl justo ac ligula. Integer fringilla dolor lectus, quis posuere felis finibus nec. Praesent in purus viverra, pharetra ante quis, cursus erat. Integer et mauris ut dolor iaculis rutrum. Vestibulum ultrices neque in enim sollicitudin, ac imperdiet nisl dignissim. Pellentesque commodo dui vitae felis cursus dignissim. </p>
-                        </div>
-                        <div className='HomeFaqBlockH2'>
+                        </article>
+                        <article className='HomeFaqBlockH2'>
                             <h2>04. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
                             <img src={arrowBot} className='HomeFaqBlockIcon' onClick={() => FaqToggle4(faqS4)} />
-                        </div>
-                        <div className='HomeFaqBlockP' style={faqS4 ? {display: 'flex'} : {display: 'none'}}>
+                        </article>
+                        <article className='HomeFaqBlockP' style={faqS4 ? {animationName: 'growDown'} : {animationName: 'growUp'}}>
                             <p>Donec porttitor, lectus vel rutrum vestibulum, enim eros fringilla dolor, accumsan hendrerit nisl justo ac ligula. Integer fringilla dolor lectus, quis posuere felis finibus nec. Praesent in purus viverra, pharetra ante quis, cursus erat. Integer et mauris ut dolor iaculis rutrum. Vestibulum ultrices neque in enim sollicitudin, ac imperdiet nisl dignissim. Pellentesque commodo dui vitae felis cursus dignissim. </p>
-                        </div>
-                        <div className='HomeFaqBlockH2'>
+                        </article>
+                        <article className='HomeFaqBlockH2'>
                             <h2>05. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
                             <img src={arrowBot} className='HomeFaqBlockIcon' onClick={() => FaqToggle5(faqS5)} />
-                        </div>
-                        <div className='HomeFaqBlockP' style={faqS5 ? {display: 'flex'} : {display: 'none'}}>
+                        </article>
+                        <article className='HomeFaqBlockP' style={faqS5 ? {animationName: 'growDown'} : {animationName: 'growUp'}}>
                             <p>Donec porttitor, lectus vel rutrum vestibulum, enim eros fringilla dolor, accumsan hendrerit nisl justo ac ligula. Integer fringilla dolor lectus, quis posuere felis finibus nec. Praesent in purus viverra, pharetra ante quis, cursus erat. Integer et mauris ut dolor iaculis rutrum. Vestibulum ultrices neque in enim sollicitudin, ac imperdiet nisl dignissim. Pellentesque commodo dui vitae felis cursus dignissim. </p>
-                        </div>
-                        <div className='HomeFaqBlockH2'>
+                        </article>
+                        <article className='HomeFaqBlockH2'>
                             <h2>06. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
                             <img src={arrowBot} className='HomeFaqBlockIcon' onClick={() => FaqToggle6(faqS6)} />
-                        </div>
-                        <div className='HomeFaqBlockP' style={faqS6 ? {display: 'flex'} : {display: 'none'}}>
+                        </article>
+                        <article className='HomeFaqBlockP' style={faqS6 ? {animationName: 'growDown'} : {animationName: 'growUp'}}>
                             <p>Donec porttitor, lectus vel rutrum vestibulum, enim eros fringilla dolor, accumsan hendrerit nisl justo ac ligula. Integer fringilla dolor lectus, quis posuere felis finibus nec. Praesent in purus viverra, pharetra ante quis, cursus erat. Integer et mauris ut dolor iaculis rutrum. Vestibulum ultrices neque in enim sollicitudin, ac imperdiet nisl dignissim. Pellentesque commodo dui vitae felis cursus dignissim. </p>
-                        </div>
-                        <div className='HomeFaqBlockH2'>
+                        </article>
+                        <article className='HomeFaqBlockH2'>
                             <h2>07. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
                             <img src={arrowBot} className='HomeFaqBlockIcon' onClick={() => FaqToggle7(faqS7)} />
-                        </div>
-                        <div className='HomeFaqBlockP' style={faqS7 ? {display: 'flex'} : {display: 'none'}}>
+                        </article>
+                        <article className='HomeFaqBlockP' style={faqS7 ? {animationName: 'growDown'} : {animationName: 'growUp'}}>
                             <p>Donec porttitor, lectus vel rutrum vestibulum, enim eros fringilla dolor, accumsan hendrerit nisl justo ac ligula. Integer fringilla dolor lectus, quis posuere felis finibus nec. Praesent in purus viverra, pharetra ante quis, cursus erat. Integer et mauris ut dolor iaculis rutrum. Vestibulum ultrices neque in enim sollicitudin, ac imperdiet nisl dignissim. Pellentesque commodo dui vitae felis cursus dignissim. </p>
-                        </div>
+                        </article>
                     </div>
-                </div>
-            </div>
+                </section>
+            </section>
         </div>
     )
 }

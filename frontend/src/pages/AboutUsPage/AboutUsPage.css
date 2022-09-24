@@ -1,0 +1,221 @@
+.AboutUsContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding-top: 150px;
+    flex-direction: column;
+}
+
+.AboutUsHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    border-bottom: 1px solid #615C4A;
+    padding-bottom: 80px
+}
+
+.AboutUsHeader h1{
+    font-size: 7rem;
+    width: 85%;
+    line-height: 130px;
+    font-weight: 500;
+    color: #615C4A;
+    margin: 0px 0px 20px 0px;
+}
+
+.AboutUsHeader p{
+    font-size: 1.3rem;
+    width: 85%;
+    color: #615C4A;
+    margin: 0px 0px 45px 0px;
+}
+
+.AboutUsMain{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.AboutUsText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 80px 0px;
+    box-sizing: border-box;
+}
+
+.AboutUsText:nth-child(1){
+    border-bottom: 1px solid #615C4A;
+}
+
+.AboutUsText:last-child{
+    padding: 80px 0px 0px 0px;
+    border-top: 1px solid #615C4A;
+    margin-bottom: -20px;
+}
+
+.AboutUsImg{
+    width: 45%;
+}
+
+.AboutUsImg1{
+    width: 25%;
+}
+
+.AboutUsTextPDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    flex-direction: column;
+}
+
+.AboutUsTextPDiv p{
+    line-height: 35px;
+    font-size: 1.05rem;
+    width: 100%;
+    padding: 50px 100px 50px 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.AboutUsTextPDiv1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    flex-direction: column;
+}
+
+.AboutUsTextPDiv1 p{
+    line-height: 35px;
+    font-size: 1.05rem;
+    width: 100%;
+    padding: 0px 0px 30px 100px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.AboutUsBanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url('../../static/images/img3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+@media(max-width: 1550px){
+    .AboutUsImg1{
+        width: 35%;
+    }
+
+    .AboutUsTextPDiv1{
+        width: 50%;
+    }
+}
+
+@media(max-width: 1200px){
+    .AboutUsImg1{
+        display: none;
+    }
+
+    .AboutUsImg{
+        display: none;
+    }
+
+    .AboutUsTextPDiv1{
+        width: 85%;
+    }
+
+    .AboutUsTextPDiv1 p{
+        padding-left: 0px;
+    }
+
+    .AboutUsTextPDiv{
+        width: 85%;
+    }
+
+    .AboutUsTextPDiv p{
+        padding-right: 0px;
+    }
+
+    .AboutUsBanner{
+        height: 500px;
+    }
+}
+
+@media(max-width: 1100px){
+    .AboutUsHeader h1{
+        font-size: 5rem;
+        line-height: 95px;
+    }
+}
+
+@media(max-width: 900px){
+    .AboutUsTextPDiv p{
+        padding: 0px;
+    }
+}
+
+@media(max-width: 780px){
+    .AboutUsHeader h1{
+        font-size: 4rem;
+        line-height: 80px;
+    }
+}
+
+@media(max-width: 740px){
+    .AboutUsHeader{
+        padding: 0px 0px 30px 0px;
+    }
+
+    .AboutUsContainer{
+        padding-top: 120px;
+    }
+}
+
+@media(max-width: 646px){
+    .AboutUsHeader h1{
+        font-size: 3.5rem;
+        line-height: 65px;
+    }
+
+    .AboutUsBanner{
+        background-attachment: initial;
+    }
+}
+
+@media(max-width: 550px){
+    .AboutUsHeader h1{
+        font-size: 3rem;
+        line-height: 65px;
+    }
+
+    .AboutUsBanner{
+        height: 350px;
+    }
+}
+
+@media(max-width: 476px){
+    .AboutUsHeader h1{
+        font-size: 2.5rem;
+        line-height: 55px;
+    }
+}
+
+@media(max-width: 396px){
+    .AboutUsHeader h1{
+        font-size: 2rem;
+        line-height: 45px;
+    }
+}

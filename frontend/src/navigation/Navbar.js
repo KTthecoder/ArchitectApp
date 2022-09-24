@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../navigation/Navbar.css'
-import { Link } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import menuIcon from '../static/icons/menu.png'
 import closeIcon from '../static/icons/close.png'
 
@@ -8,11 +8,20 @@ const Navbar = () => {
     const [show, setShow] = useState(false)
     const [show1, setShow1] = useState(true)
 
+    const location = useLocation()
+
+    const navigate = useNavigate()
+
+    useEffect(() => {
+        setShow(false)
+        setShow1(true)
+    }, [location])
+
     return (
         <div className='NavbarContainer'>
             <div className='NavbarContainer1'>
                 <div className='NavbarLogoDiv'>
-                    <h1>InterArt</h1>
+                    <h1 onClick={() => navigate("/")}>InterArt</h1>
                 </div>
                 <div className='NavbarMenuDiv'>
                     <Link to='/about-us' className='NavbarMenuLink'>About Us</Link>
@@ -28,7 +37,7 @@ const Navbar = () => {
             </div>
             <div className='NavbarMenuDiv1' style={show ? {display: 'flex'} : {display: 'none'}}>
                 <div className='NavbarLogoDiv1'>
-                    <h1>InterArt</h1>
+                    <h1 onClick={() => navigate("/")}>InterArt</h1>
                     <img src={closeIcon} className='NavbarMenuBtn1' onClick={() => setShow(false)} />
                 </div>
                 <div className='NavbarMenuDiv2'>
