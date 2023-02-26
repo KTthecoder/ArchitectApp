@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import '../HomePage/HomePage.css'
 import { Link } from 'react-router-dom'
-import img1 from '../../static/images/img1.jpg'
-import img2 from '../../static/images/img2.jpg'
-import img3 from '../../static/images/img3.jpg'
-import img5 from '../../static/images/img5.jpg'
-import img6 from '../../static/images/img6.jpg'
-import img7 from '../../static/images/img7.jpg'
+import img1 from '../../static/images/img1.webp'
+import img2 from '../../static/images/img2.webp'
+import img3 from '../../static/images/img3.webp'
+import img5 from '../../static/images/img5.webp'
+import img6 from '../../static/images/img6.webp'
+import img7 from '../../static/images/img7.webp'
 import arrowBot from '../../static/icons/arrowBot.png'
 
 const HomePage = () => {
@@ -103,7 +103,7 @@ const HomePage = () => {
                 <article className='HomeAboutRight'>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor, lectus vel rutrum vestibulum, enim eros fringilla dolor, accumsan hendrerit nisl justo ac ligula. Integer fringilla dolor lectus, quis posuere felis finibus nec. Praesent in purus viverra, pharetra ante quis, cursus erat. Integer et mauris ut dolor iaculis rutrum. Vestibulum ultrices neque in enim sollicitudin, ac imperdiet nisl...</p>
                     <div className='HomeAboutRightLinkDiv'>
-                        <Link to='/' className='HomeAboutRightLink'>READ MORE</Link>
+                        <Link to='/about-us' className='HomeAboutRightLink'>READ MORE</Link>
                     </div>       
                 </article>
             </section>
@@ -215,7 +215,7 @@ const HomePage = () => {
                         <p>Sed dignissim neque at ex vehicula facilisis. Proin metus ex, iaculis sit amet nulla quis, mattis tempus enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce quis tellus id lorem ultrices suscipit luctus ut sapien. Ut in iaculis neque. Suspendisse varius ipsum non metus laoreet, sed cursus est eleifend.</p>
                     </div>
                     <div className='HomePortfolioBottomBtnDiv'>
-                        <Link to='/' className='HomePortfolioBottomBtn'>SEE MORE PROJECTS</Link>
+                        <Link to='/portfolio' className='HomePortfolioBottomBtn'>SEE MORE PROJECTS</Link>
                     </div>
                 </article>
             </section>

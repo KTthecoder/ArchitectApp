@@ -25,7 +25,7 @@ const Navbar = () => {
                 </div>
                 <div className='NavbarMenuDiv'>
                     <Link to='/about-us' className='NavbarMenuLink'>About Us</Link>
-                    <Link to='/offer' className='NavbarMenuLink'>Offer</Link>
+                    {/* <Link to='/offer' className='NavbarMenuLink'>Offer</Link> */}
                     <Link to='/portfolio' className='NavbarMenuLink'>Portfolio</Link>
                     <Link to='/faq' className='NavbarMenuLink'>Faq</Link>
                     <Link to='/contact' className='NavbarMenuLink'>Contact</Link>
@@ -42,7 +42,7 @@ const Navbar = () => {
                 </div>
                 <div className='NavbarMenuDiv2'>
                     <Link to='/about-us' className='NavbarMenuLink2'>About Us</Link>
-                    <Link to='/offer' className='NavbarMenuLink2'>Offer</Link>
+                    {/* <Link to='/offer' className='NavbarMenuLink2'>Offer</Link> */}
                     <Link to='/portfolio' className='NavbarMenuLink2'>Portfolio</Link>
                     <Link to='/faq' className='NavbarMenuLink2'>Faq</Link>
                     <Link to='/contact' className='NavbarMenuLink2'>Contact</Link>

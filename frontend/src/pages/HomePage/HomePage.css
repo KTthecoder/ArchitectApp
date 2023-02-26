@@ -124,11 +124,13 @@
     margin-top: 10px;
     letter-spacing: 4px;
     font-size: .8rem;
+    transition: all 0.3s;
 }
 
 .HomeAboutRightLink:hover{
     background-color: #615C4A;
     color: white;
+    transition: all 0.3s;
 }
 
 .HomePortfolio{
@@ -245,7 +247,7 @@
 }
 
 .HomePortolioHover{
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -255,10 +257,13 @@
     left: 0px;
     flex-direction: column;
     background-color: #615c4ae5;
+    opacity: 0;
+    transition: all 0.5s;
 }
 
 .HomePortfolioBlock:hover .HomePortolioHover {
-    display: flex;
+    opacity: 1;
+    transition: all 0.5s;
 }
 
 .HomePortfolioHoverTop{
@@ -352,11 +357,13 @@
     margin-top: 10px;
     letter-spacing: 4px;
     font-size: .8rem;
+    transition: all 0.3s;
 }
 
 .HomePortfolioBottomBtn:hover{
     color: white;
     background-color: #615C4A;
+    transition: all 0.3s;
 }
 
 .HomeFaq{

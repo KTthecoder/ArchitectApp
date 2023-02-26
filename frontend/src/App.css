@@ -6,3 +6,16 @@ body{
   font-family: 'Montserrat', sans-serif;
   background-color: #e9e6dc;
 }
+
+::-webkit-scrollbar {
+  width: 8 px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px #615C4A;
+  border-left: 1px solid #615C4A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #615C4A;
+}

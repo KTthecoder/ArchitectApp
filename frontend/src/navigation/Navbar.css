@@ -26,7 +26,7 @@
 
 .NavbarLogoDiv h1{
     font-size: 1.5rem;
-    color: #222;
+    color: #615C4A;
     cursor: pointer;
 }
 
@@ -43,6 +43,7 @@
     font-size: 1rem;
     border-bottom: 1px solid transparent;
     padding: 3px 0px;
+    transition: all .15s ease-in-out;
 }
 
 .NavbarMenuBtnDiv{
@@ -65,10 +66,12 @@
 @media(min-width: 1200px){
     .NavbarMenuLink2:hover{
         border-bottom: 1px solid #222;
+        transition: all .15s ease-in-out;
     }
 
     .NavbarMenuLink:hover{
         border-bottom: 1px solid #222;
+        transition: all .15s ease-in-out;
     }
 }
 
@@ -133,6 +136,7 @@
         border-bottom: 1px solid transparent;
         padding: 15px 0px;
         width: 78%;
+        transition: all .15s ease-in-out;
     }
     
     

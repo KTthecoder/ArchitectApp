@@ -1,7 +1,7 @@
 import React from 'react'
 import '../AboutUsPage/AboutUsPage.css'
-import img1 from '../../static/images/img1.jpg'
-import img8 from '../../static/images/img8.jpg'
+import img1 from '../../static/images/img1.webp'
+import img8 from '../../static/images/img8.webp'
 
 const AboutUsePage = () => {
   return (
