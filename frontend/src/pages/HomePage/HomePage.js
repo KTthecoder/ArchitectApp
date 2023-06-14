@@ -93,7 +93,7 @@ const HomePage = () => {
                 </article>
             </section>
             <section className='HomeHeaderImgDiv'>
-                <img src={img1} className='HomeHeaderImg' />
+                <img src={img1} className='HomeHeaderImg' alt='Spacejoy on Unsplash' />
                 {/* Photo by <a href="https://unsplash.com/@spacejoy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Spacejoy</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
             </section>
             <section className='HomeAbout'>
@@ -113,7 +113,7 @@ const HomePage = () => {
                 </article>
                 <section className='HomePortfolioDiv'>
                     <article className='HomePortfolioBlock'>
-                        <img src={img1} className='HomePortfolioImg' />
+                        <img src={img1} className='HomePortfolioImg' alt='Spacejoy on Unsplash'/>
                         {/* Photo by <a href="https://unsplash.com/@spacejoy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Spacejoy</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
                         <div className='HomePortfolioBlock1'>
                             <h1>01.</h1>
@@ -129,7 +129,7 @@ const HomePage = () => {
                         </div>
                     </article>
                     <article className='HomePortfolioBlock'>
-                        <img src={img2} className='HomePortfolioImg' />
+                        <img src={img2} className='HomePortfolioImg' alt='Sidekix on Unsplash'/>
                         {/* Photo by <a href="https://unsplash.com/@sidekix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sidekix Media</a> on <a href="https://unsplash.com/s/photos/interior-design?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
                         <div className='HomePortfolioBlock1'>
                             <h1>02.</h1>
@@ -145,7 +145,7 @@ const HomePage = () => {
                         </div>
                     </article>
                     <article className='HomePortfolioBlock'>
-                        <img src={img3} className='HomePortfolioImg' />
+                        <img src={img3} className='HomePortfolioImg' alt='刘 强 on Unsplash'/>
                         {/* Photo by <a href="https://unsplash.com/@iwood?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">刘 强</a> on <a href="https://unsplash.com/s/photos/interior-design?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
                         <div className='HomePortfolioBlock1'>
                             <h1>03.</h1>
@@ -161,7 +161,7 @@ const HomePage = () => {
                         </div>
                     </article>           
                     <article className='HomePortfolioBlock'>
-                        <img src={img5} className='HomePortfolioImg' />
+                        <img src={img5} className='HomePortfolioImg' alt=' Zdjęcie dodane przez Victoria Akvarel Pexels'/>
                         {/* Zdjęcie dodane przez Victoria Akvarel : https://www.pexels.com/pl-pl/zdjecie/sofa-krzesla-w-salonie-1648776/ */}
                         <div className='HomePortfolioBlock1'>
                             <h1>04.</h1>
@@ -177,7 +177,7 @@ const HomePage = () => {
                         </div>
                     </article>
                     <article className='HomePortfolioBlock'>
-                        <img src={img7} className='HomePortfolioImg' />
+                        <img src={img7} className='HomePortfolioImg' alt='Zdjęcie dodane przez Vecislavas Popa Pexels'/>
                         {/* Zdjęcie dodane przez Vecislavas Popa: https://www.pexels.com/pl-pl/zdjecie/wlaczony-inteligentny-telewizor-z-plaskim-ekranem-w-kolorze-szarym-1571459/ */}
                         <div className='HomePortfolioBlock1'>
                             <h1>05.</h1>
@@ -193,7 +193,7 @@ const HomePage = () => {
                         </div>
                     </article>
                     <article className='HomePortfolioBlock'>
-                        <img src={img6} className='HomePortfolioImg' />
+                        <img src={img6} className='HomePortfolioImg' alt='Zdjęcie dodane przez Pixabay' />
                         {/* Zdjęcie dodane przez Pixabay: https://www.pexels.com/pl-pl/zdjecie/sofa-narozna-z-brazowej-tkaniny-275484/ */}
                         <div className='HomePortfolioBlock1'>
                             <h1>06.</h1>

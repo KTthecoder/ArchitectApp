@@ -1,9 +1,6 @@
 import React from 'react'
 import '../PortfolioPage/PortfolioPage.css'
 import img1 from '../../static/images/img1.webp'
-import img2 from '../../static/images/img2.webp'
-import img3 from '../../static/images/img3.webp'
-import img5 from '../../static/images/img5.webp'
 import { Link } from 'react-router-dom'
 
 const PortfolioPage = () => {
@@ -15,7 +12,7 @@ const PortfolioPage = () => {
         </div>
         <div className='PortfolioDivBig'>
             <div className='PortfolioDivBig1'>
-                <img className='PortfolioDivBig1Img' src={img1} />
+                <img className='PortfolioDivBig1Img' src={img1} alt='Spacejoy on Unsplash' />
                 <div className='PortfolioDivBig1Bot'>
                     <div className='PortfolioDivBig1Left'>
                         <h3>PROJECT</h3>
@@ -86,7 +83,7 @@ const PortfolioPage = () => {
         </div>
         <div className='PortfolioDivBig'>
             <div className='PortfolioDivBig1'>
-                <img className='PortfolioDivBig1Img' src={img1} />
+                <img className='PortfolioDivBig1Img' src={img1} alt='Spacejoy on Unsplash' />
                 <div className='PortfolioDivBig1Bot'>
                     <div className='PortfolioDivBig1Left'>
                         <h3>PROJECT</h3>

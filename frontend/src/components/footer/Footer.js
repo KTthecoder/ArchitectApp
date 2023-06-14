@@ -15,12 +15,15 @@ const Footer = () => {
                 <Link to='/' className='FooterDivBlockLink'>Home</Link>
                 <Link to='/about-us' className='FooterDivBlockLink'>About Us</Link>
                 <Link to='/offer' className='FooterDivBlockLink1'>Offer</Link>
+                <a href='https://unsplash.com/' className='FooterDivBlockLink1'>Images</a>
+                <a href='https://pixabay.com/pl/' className='FooterDivBlockLink1'>Images</a>
             </div>
             <div className='FooterDivBlock'>
                 <h2>Links</h2>
                 <Link to='/portfolio' className='FooterDivBlockLink'>Portfolio</Link>
                 <Link to='/faq' className='FooterDivBlockLink'>Faq</Link>
                 <Link to='/contact' className='FooterDivBlockLink1'>Contact</Link>
+                <a href='https://www.pexels.com/pl-pl/' className='FooterDivBlockLink1'>Images</a>
             </div>
         </div>
         <div className='FooterDiv'>
